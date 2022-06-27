@@ -1,0 +1,85 @@
+@import '../../styles/global.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.5rem 1rem;
+  width: 100%;
+
+  position: fixed;
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    svg {
+      margin-right: 0.125rem;
+    }
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+
+    li {
+      display: flex;
+      padding: 0 1.5rem;
+      color: rgba(255,255,255,0.5);
+
+      cursor: pointer;
+
+      svg {
+        margin-right: 1rem;
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 1.25rem;
+      }
+    }
+
+    li:hover {
+      color: #fff;
+    }
+
+    .active {
+      color: #fff;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+
+    button {
+      border: 0;
+      
+    }
+
+    .icon-button {
+      background: transparent;
+      color: #fff;
+
+      width: 40px;
+      height: 40px;
+
+      padding: 0.5rem;
+    }
+
+    .login-button {
+      margin-left: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0.125rem;
+      
+      background: #fff;
+      font-weight: 500;
+      font-size: 0.875rem;
+    }
+  }
+}
