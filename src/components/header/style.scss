@@ -9,6 +9,7 @@
   width: 100%;
 
   position: fixed;
+  background: $background;
 
   a {
     display: flex;
@@ -20,6 +21,8 @@
 
     svg {
       margin-right: 0.125rem;
+      width: 1.5rem;
+      height: 1.5rem;
     }
   }
 
@@ -66,8 +69,8 @@
       background: transparent;
       color: #fff;
 
-      width: 40px;
-      height: 40px;
+      width: 2.5rem;
+      height: 2.5rem;
 
       padding: 0.5rem;
     }

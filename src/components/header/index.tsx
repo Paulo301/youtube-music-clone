@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
   return (
     <nav className='header'>
       <a href="/">
-        <LogoImg width='24px' height='24px' />
+        <LogoImg />
         Music
       </a>
 
@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
           <span>Biblioteca</span>
         </li>
         <li>
-          <SearchImg fill="currentColor" stroke="currentColor" width='24px' height='24px' />
+          <SearchImg fill="currentColor" stroke="currentColor" width='1.5rem' height='1.5rem' />
           <span>Pesquisar</span>
         </li>
       </ul>

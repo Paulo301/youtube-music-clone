@@ -1,10 +1,17 @@
 @import '../../styles/global.scss';
 
-.container {
+.container-home {
   display: flex;
   flex-direction: column;
 
-  p {
-    color: rgba(255,255,255,0.7);
+  .content {
+    padding-top: 4.125rem;
+
+    padding-right: calc((calc(100vw - 1150px) * 0.2) + 50px);
+    padding-left: calc((calc(100vw - 1150px) * 0.2) + 50px);
+    
+    p {
+      color: rgba(255,255,255,0.7);
+    }
   }
 }
