@@ -1,4 +1,6 @@
-$primary-background: #030303;
+$background: #030303;
+$text-title: #fff;
+$text: rgba(255,255,255,0.5);
 
 * {
   margin: 0;
@@ -17,7 +19,7 @@ html {
 }
 
 body {
-  background: $primary-background;
+  background: $background;
   -webkit-font-smoothing: antialiased;
 }
 

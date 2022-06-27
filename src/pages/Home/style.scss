@@ -1,0 +1,10 @@
+@import '../../styles/global.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    color: rgba(255,255,255,0.7);
+  }
+}
